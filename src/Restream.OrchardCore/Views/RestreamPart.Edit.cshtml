@@ -1,21 +1,46 @@
 @model RestreamPartViewModel
 
 <div class="container">
-    <h3>Add Video frame Dimensions</h3>
-<div class="row">
-        <div class="col-md-6">
-        <div class="form-group">
-            <label  asp-for="Width">@T["Video Frame Width"]</label>
-            <input type="number" class="form-control" asp-for="Width" />
+    <h3>Video  player Properties</h3>
+    <div class="row">
+        @*<div class="col-md-12">
+            <div class="custom-control custom-checkbox">
+                <input id="IsGlobalToken" type="checkbox" class="form-check-input "   asp-for="UseTokenFromPartSettings" />
+                <label asp-for="UseTokenFromPartSettings">@T["Use Global ContentPart Token"]</label>
+            </div>
         </div>
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="Token">@T["Token Key"]</label>
+                <input id="token" type="text" class="form-control" asp-for="Token" />
+            </div>
+        </div>*@
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Width">@T["Video Player Width"]</label>
+                <input type="number" class="form-control"  asp-for="Width" placeholder="Video Player Width" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Height">@T["Video Player Height"]</label>
+                <input type="number" class="form-control"  asp-for="Height" placeholder="Video Player Height" />
+            </div>
+        </div>
+
     </div>
-    <div class="col-md-6">
-   <div class="form-group">
-        <label  asp-for="Height">@T["Video Frame Height"]</label>
-        <input type="number" class="form-control" asp-for="Height" />
-    </div>
-    </div>
- 
-</div>
 
 </div>
+<script>
+    var keyInput = document.getElementById("token");
+    var checkbox = document.getElementById("IsGlobalToken");
+
+    checkbox.addEventListener("change", function () {
+
+        if (checkbox.checked) {
+            keyInput.setAttribute("disabled", true);
+        } else {
+            keyInput.removeAttribute("disabled");
+        }
+    });
+</script>

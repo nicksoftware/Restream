@@ -18,8 +18,12 @@ namespace Restream.OrchardCore
         public int Create()
         {
             _contentDefinitionManager.AlterPartDefinition("RestreamPart", builder => builder
-                .Attachable()
-                .WithDescription("Provides a Restream Video Streaming Frame section for your content item."));
+                .WithDescription("Provides Restream Video Streaming  properties.").Reusable());
+
+            _contentDefinitionManager.AlterTypeDefinition("Restream", type => type
+            .WithPart("RestreamPart")
+            .Stereotype("Widget").Draftable().Securable().Build());
+
 
             return 1;
         }

@@ -12,9 +12,10 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ProvideApplicationPartFactoryAttribute("Microsoft.AspNetCore.Mvc.ApplicationParts.CompiledRazorAssemblyApplicationPartFac" +
     "tory, Microsoft.AspNetCore.Mvc.Razor")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Restream.OrchardCore")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Nicolas Maluleke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restream.OrchardCore")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(@"Restream is a online platform that allows you to stream on multiple streaming platforms simultaneously at real time, Restream.OrchardCore is a module for Orchard Core that enables you to live broadcast your video live video sessions directly on your website . The module is a Restream Content Part you can add on any content type.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restream.OrchardCore.Views")]

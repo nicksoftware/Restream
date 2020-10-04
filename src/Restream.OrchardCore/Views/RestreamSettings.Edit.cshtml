@@ -1,0 +1,12 @@
+﻿@model Restream.OrchardCore.ViewModels.RestreamSettingsViewModel
+<div class="form-group"  asp-validation-class-for="TokenKey">
+    <div class="row col-lg">
+        <label asp-for="TokenKey">@T["Widget Token key"]</label>
+        <input asp-for="TokenKey" class="form-control" />
+        <span asp-validation-for="TokenKey"></span>
+        <span class="hint">@T["The Restream  token found in the imbedded iframe code."]</span>
+    </div>
+</div>
+<div class="form-group">
+    <span class="hint">@T["Get your video player token at"] <a href="https://restream.io/settings/embed-player/">Restream.io</a></span>
+</div>

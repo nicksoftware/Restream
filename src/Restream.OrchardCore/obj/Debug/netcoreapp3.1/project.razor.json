@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\NickSoftware.Module.Restream.csproj",
+  "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Restream.OrchardCore.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14791,21 +14791,21 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "NickSoftware.Module.Restream",
+  "RootNamespace": "Restream.OrchardCore",
   "Documents": [
-    {
-      "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPartSettings.Edit.cshtml",
-      "TargetPath": "Views\\RestreamPartSettings.Edit.cshtml",
-      "FileKind": "mvc"
-    },
     {
       "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPart.Edit.cshtml",
       "TargetPath": "Views\\RestreamPart.Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamSettings.Edit.cshtml",
+      "TargetPath": "Views\\RestreamSettings.Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPartSettings.ed.cshtml",
+      "TargetPath": "Views\\RestreamPartSettings.ed.cshtml",
       "FileKind": "mvc"
     },
     {
