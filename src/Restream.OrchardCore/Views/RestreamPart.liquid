@@ -1,4 +1,7 @@
-<div class="container">
+{% if Model.Token %}
+
     <iframe src="https://embed.restream.io/player/index.html?token={{Model.Token}}" width="{{Model.Width}}" height="{{Model.Height}}" frameborder="0" allowfullscreen></iframe>
-    <p>Plugin Created by <a href="https://nicksoftware.co.za"> Nicolas Maluleke</a>, Powered by <a href="https://restream.io">Restream.io</a></p>
-</div>
+    <p style="font-size:10px;margin:0px;">Plugin Created by <a href="https://nicksoftware.co.za"> Nicolas Maluleke</a>, Powered by <a href="https://restream.io">Restream.io</a></p>
+{% else %}
+   <div class="alert alert-warning">"Restream settings are not configured."</div>
+{% endif %}

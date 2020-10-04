@@ -3,6 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <Title>Restream.OrchardCore</Title>
+    <Description>Restream is a online platform that allows you to stream on multiple streaming platforms simultaneously at real time, Restream.OrchardCore is a module for Orchard Core that enables you to live broadcast your video live video sessions directly on your website  . The module is a Restream widget,content type  you can add on any content type.</Description>
+    <Authors>Nicolas Maluleke</Authors>
+    <Company>Nicolas Maluleke</Company>
+    <Language>C#</Language>
+    <Summary>Restream module for Orchard Core</Summary>
+    <PackageProjectUrl>https://github.com/hnicolus/Restream</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/hnicolus/Restream</RepositoryUrl>
+    <PackageTags>Restream, Orchard Core, Module, OrchardCore</PackageTags>
+    <PackageReleaseNotes>changed module  from just just a content part to a content type widget, to get started install the module 
+reference, run your  application ,enable the feature ,go to Configuration &gt; Settings &gt; Restream and add the token key.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>Restream.OrchardCore</RepositoryType>
+    <Version>1.2.0--beta</Version>
   </PropertyGroup>
 
   <ItemGroup>

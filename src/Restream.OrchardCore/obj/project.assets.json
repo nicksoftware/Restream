@@ -9009,7 +9009,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.2.0--beta",
     "restore": {
       "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\Restream\\src\\Restream.OrchardCore\\Restream.OrchardCore.csproj",
       "projectName": "Restream.OrchardCore",
@@ -9032,6 +9032,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\Xamarin\\18.1.0.42\\Xamarin\\nuget": {},
         "C:\\Users\\nicol\\OneDrive\\Documents\\API": {},
+        "C:\\Users\\nicol\\source\\repos\\My Nuget Packages": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
         "https://nuget.stocksharp.com/AQAAAAAAAABN8Uy1Vq9zbji5LDyxUz8B0OOVNi4zqYDW5AHLRd0n0w": {}

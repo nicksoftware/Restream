@@ -1,0 +1,28 @@
+@model Restream.OrchardCore.Settings.RestreamPartSettingsViewModel
+<div class="form-group">
+    <div class="row col-lg">
+        <div class="col-md-12">
+            <div class="custom-control custom-checkbox">
+                <input id="IsGlobalToken" type="checkbox" class="form-check-input "   asp-for="UseSettingsToken" />
+                <label asp-for="UseSettingsToken">@T["Use Global Settings Token"]</label>
+            </div>
+        </div>
+
+        <label asp-for="Token">@T["Video Frame token"]</label>
+        <input asp-for="Token" class="form-control" />
+        <span class="hint">@T["The Restream video token found in the imbedde Iframe code snippet ."]</span>
+    </div>
+</div>
+<script>
+    var keyInput = document.getElementById("token");
+    var checkbox = document.getElementById("IsGlobalToken");
+
+    checkbox.addEventListener("change", function () {
+
+        if (checkbox.checked) {
+            keyInput.setAttribute("disabled", true);
+        } else {
+            keyInput.removeAttribute("disabled");
+        }
+    });
+</script>

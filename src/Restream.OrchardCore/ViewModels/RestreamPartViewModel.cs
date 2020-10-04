@@ -15,7 +15,8 @@ namespace Restream.OrchardCore.ViewModels
         public int Width { get; set; }
         [DisplayName("Frame Height")]
         public int Height { get; set; }
-
+        public bool UseTokenFromPartSettings { get; set; }
+        public bool SettingsAreConfigured { get; set; }
         [BindNever]
         public ContentItem ContentItem { get; set; }
 
@@ -24,6 +25,6 @@ namespace Restream.OrchardCore.ViewModels
 
         [BindNever]
         public RestreamPartSettings Settings { get; set; }
-        public object Token { get; internal set; }
+        public string Token { get;  set; }
     }
 }

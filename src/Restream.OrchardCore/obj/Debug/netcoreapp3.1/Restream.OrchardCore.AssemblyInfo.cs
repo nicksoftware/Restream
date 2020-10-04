@@ -12,22 +12,24 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("Restream.OrchardCore", "Module")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart.Edit.cshtml|C:\\Users\\nicol\\source\\r" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart.Edit.cshtml|c:\\Users\\nicol\\source\\r" +
     "epos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPart.Edit.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart.liquid|C:\\Users\\nicol\\source\\repos\\" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart.liquid|c:\\Users\\nicol\\source\\repos\\" +
     "Restream\\src\\Restream.OrchardCore\\Views\\RestreamPart.liquid")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPartSettings.Edit.cshtml|C:\\Users\\nicol\\" +
-    "source\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPartSettings.Edit.c" +
-    "shtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart_Summary.liquid|C:\\Users\\nicol\\sourc" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPartSettings.ed.cshtml|c:\\Users\\nicol\\so" +
+    "urce\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPartSettings.ed.cshtm" +
+    "l")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamPart_Summary.liquid|c:\\Users\\nicol\\sourc" +
     "e\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamPart_Summary.liquid")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\_ViewImports.cshtml|C:\\Users\\nicol\\source\\repos\\" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\RestreamSettings.Edit.cshtml|c:\\Users\\nicol\\sour" +
+    "ce\\repos\\Restream\\src\\Restream.OrchardCore\\Views\\RestreamSettings.Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\Widget-Restream.liquid|c:\\Users\\nicol\\source\\rep" +
+    "os\\Restream\\src\\Restream.OrchardCore\\Views\\Widget-Restream.liquid")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Restream.OrchardCore\\Views\\_ViewImports.cshtml|c:\\Users\\nicol\\source\\repos\\" +
     "Restream\\src\\Restream.OrchardCore\\Views\\_ViewImports.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nicolas Maluleke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Restream is a module for Orchard Core that enables  you to add a Restream  \r\n Vid" +
-    "eo player to live broadcast your restream video sessions directly on your websit" +
-    "e .\r\nThe module is a  Restream part you can add  on any content type.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(@"Restream is a online platform that allows you to stream on multiple streaming platforms simultaneously at real time, Restream.OrchardCore is a module for Orchard Core that enables you to live broadcast your video live video sessions directly on your website . The module is a Restream Content Part you can add on any content type.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restream.OrchardCore")]

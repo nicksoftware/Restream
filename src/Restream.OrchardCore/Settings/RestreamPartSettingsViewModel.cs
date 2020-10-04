@@ -4,6 +4,8 @@ namespace Restream.OrchardCore.Settings
 {
     public class RestreamPartSettingsViewModel
     {
+
+        public bool UseSettingsToken { get; set; }
         public string Token { get; set; }
 
         [BindNever]

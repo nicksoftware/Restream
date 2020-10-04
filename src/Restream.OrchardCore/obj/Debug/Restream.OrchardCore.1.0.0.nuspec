@@ -3,9 +3,18 @@
   <metadata>
     <id>Restream.OrchardCore</id>
     <version>1.0.0</version>
-    <authors>Restream.OrchardCore</authors>
+    <title>Restream.OrchardCore</title>
+    <authors>Nicolas Maluleke</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/hnicolus/Restream</projectUrl>
+    <description>Restream is a online platform that allows you to stream on multiple streaming platforms simultaneously at real time, Restream.OrchardCore is a module for Orchard Core that enables you to live broadcast your video live video sessions directly on your website . The module is a Restream Content Part you can add on any content type.</description>
+    <releaseNotes>This is a prerelease module,Launch your Orchard Core application, login as admin, then go to the Features admin page and enable the Restream module.
+Add a Restream Part in the Definition of the Content Type on which you want to add Restream Video player.
+Edit the settings of the Restream Part and enter the token of the video iframe you created on https://restream.io/.</releaseNotes>
+    <tags>Restream, Orchard Core, Module, OrchardCore</tags>
+    <repository type="Restream.OrchardCore" url="https://github.com/hnicolus/Restream" />
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">
         <dependency id="OrchardCore.Admin" version="1.0.0-rc2-13450" exclude="Build,Analyzers" />

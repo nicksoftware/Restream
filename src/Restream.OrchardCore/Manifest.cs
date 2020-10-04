@@ -4,7 +4,7 @@ using OrchardCore.Modules.Manifest;
     Name = "Restream",
     Author = "Nicolas Maluleke",
     Website = "https://nicksoftware.co.za",
-    Version = "0.0.1",
+    Version = "1.0.0",
     Description = "Restream  Integrating Live streaming from Restream on Website",
     Category = "Video Streaming"
 )]
