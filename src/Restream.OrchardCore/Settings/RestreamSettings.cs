@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Restream.OrchardCore.Settings
+﻿namespace Restream.OrchardCore.Settings
 {
     public class RestreamSettings
     {

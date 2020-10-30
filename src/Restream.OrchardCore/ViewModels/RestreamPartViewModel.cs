@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using OrchardCore.ContentManagement;
-using Restream.OrchardCore.Settings;
+
 using Restream.OrchardCore.Models;
+using Restream.OrchardCore.Settings;
 using System.ComponentModel;
 
 namespace Restream.OrchardCore.ViewModels
