@@ -27,6 +27,7 @@ namespace Restream.OrchardCore
             builder.Add(S["Configuration"], config => config
             .Add(S["Settings"], settings => settings
                 .Add(S["Restream"],S["Restream"].PrefixPosition(),set => set
+                .AddClass("restream").Id("restream")
                 .Action("Index", "Admin", new { area = "OrchardCore.Settings", groupId = RestreamSettingsDisplayDriver.GroupId })
                 .LocalNav()
                 )));    

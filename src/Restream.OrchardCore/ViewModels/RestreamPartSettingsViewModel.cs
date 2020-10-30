@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Restream.OrchardCore.Settings;
 
-namespace Restream.OrchardCore.Settings
+namespace Restream.OrchardCore.ViewModels
 {
     public class RestreamPartSettingsViewModel
     {

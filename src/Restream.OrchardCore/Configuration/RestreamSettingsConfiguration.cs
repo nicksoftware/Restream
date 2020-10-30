@@ -4,6 +4,7 @@ using OrchardCore.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Restream.OrchardCore.Settings;
 
 namespace Restream.OrchardCore.Configuration
 {
