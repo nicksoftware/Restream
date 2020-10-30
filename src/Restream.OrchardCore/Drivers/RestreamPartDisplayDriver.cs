@@ -7,8 +7,6 @@ using OrchardCore.DisplayManagement.Views;
 using Restream.OrchardCore.Models;
 using Restream.OrchardCore.ViewModels;
 using Restream.OrchardCore.Settings;
-using Org.BouncyCastle.Utilities.Zlib;
-using Irony.Parsing;
 using OrchardCore.Settings;
 using OrchardCore.Entities;
 
