@@ -4,9 +4,9 @@ using OrchardCore.DisplayManagement.Entities;
 using OrchardCore.DisplayManagement.Handlers;
 using OrchardCore.DisplayManagement.Views;
 using OrchardCore.Environment.Shell;
-using Restream.OrchardCore.Configuration;
 using Restream.OrchardCore.ViewModels;
 using OrchardCore.Settings;
+using Restream.OrchardCore.Settings;
 
 namespace Restream.OrchardCore.Drivers
 {

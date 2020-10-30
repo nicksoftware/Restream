@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Restream.OrchardCore.Configuration
+namespace Restream.OrchardCore.Settings
 {
     public class RestreamSettings
     {

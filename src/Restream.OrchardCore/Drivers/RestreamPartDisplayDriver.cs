@@ -11,7 +11,6 @@ using Org.BouncyCastle.Utilities.Zlib;
 using Irony.Parsing;
 using OrchardCore.Settings;
 using OrchardCore.Entities;
-using Restream.OrchardCore.Configuration;
 
 namespace Restream.OrchardCore.Drivers
 {
